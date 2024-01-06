@@ -25,3 +25,8 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbyW0xKbAyyXhnagbt6G4M
       })
       .catch(error => console.error('Error!', error.message))
   })
+
+  const MyButton = document.getElementById('submit-btn');
+MyButton.addEventListener('click', function() {
+    document.getElementById('btn-txt').innerText = "Message sent!!.."
+})
