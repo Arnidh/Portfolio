@@ -10,7 +10,7 @@ var typed = new Typed('#element', {
 };
 
 document.getElementById("lkn").onclick = function () {
-    location.href = "https://www.linkedin.com/in/mehul-goyal-2842a6292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";
+    location.href = "Resume.html";
 };
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbyW0xKbAyyXhnagbt6G4MZBok-ZzLQMLSeXoMf65gOB6-tjjgwBZj8UJ0xvlpRniICC/exec'
