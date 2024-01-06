@@ -13,7 +13,7 @@ document.getElementById("lkn").onclick = function () {
     location.href = "Resume.html";
 };
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyJPg97r_inItneq6e5JmfICjmjZihmZdF9fOqiiSgehsEigyV7-q4pUTueO4278SNWNw/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzTFCb5gP1KHup6OwLwrotGhIYesigktdSLkJ5h1dNGre1MZyvHBaGRAjD-y7T0QvaS/exec'
   const form = document.forms['submit-to-google-sheet']
   const msg = document.getElementsByClassName['msg']
   form.addEventListener('submit', e => {
